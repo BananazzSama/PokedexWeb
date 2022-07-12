@@ -1,0 +1,267 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@600;800&display=swap');
+
+:root{
+    background-image: url(./ui/bg.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    image-rendering: auto;
+    image-rendering: crisp-edges;
+    image-rendering: pixelated;
+    background-position: center;
+    background-color: rgba(29, 26, 26, 0.945);
+    background-blend-mode: darken;
+}
+
+*{
+    color: aliceblue;
+    box-sizing: border-box;
+    font-family: 'Nunito', 'sans-serif';
+    cursor: default;
+    overflow-x: hidden;
+}
+
+.flex-column{
+    display: flex;
+    flex-direction: column;
+}
+
+.flex-center{
+    justify-content: center;
+    align-items: center;
+}
+
+.justify-center{
+    justify-content: center;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.hidden{
+    display: none!important;
+}
+
+.container{
+    text-align: center;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    max-width: 80rem;
+    margin: 0 auto;
+}
+
+.input-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.poke-container{
+    overflow-y: hidden;
+    position: relative;
+    display: flex;
+    top: 100px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0 2rem;
+    margin-top: 0.4rem;
+}
+
+.type-container{
+    display: flex;
+    flex-direction: row;
+}
+
+.description-container{
+    background-color: aliceblue;
+    box-shadow: 7px 7px 1px -2px rgba(240, 248, 255, 0.788);
+    border-radius: 10px;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+
+.input-id{
+    position: fixed;
+    z-index: 1;
+    top: 10px;
+    max-width: 90%;
+    width: 40rem;
+    height: 3rem;
+    padding: 0 1rem 0 1rem;
+    margin: 0 3rem 0 3rem;
+    border-radius: 12px;
+    border-width: 3px;
+    border: none;
+    box-shadow: 4px 4px 1px 1px rgba(240, 248, 255, 0.788);
+    color: black;
+    cursor: text;
+}
+
+.input-id:hover{
+    transform: scale(1.02);
+    transition-duration: 300ms;
+}
+
+.input-id:focus{
+    outline: none;
+    transform: scale(1.02);
+}
+
+.input-id:not(:focus){
+    transition-duration: 300ms;
+}
+
+.home{
+    font-size: 3rem;
+    margin-top: 6rem;
+}
+
+.pokemon-id{
+    font-size: 1.2rem;
+    background-color: rgb(238, 54, 100);
+    border-radius: 6px;
+    padding: 0.4rem 1.6rem 0.4rem 1.6rem ;
+    margin-bottom: 0;
+    padding-bottom: 0.2rem;
+}
+
+.pokemon-name{
+    font-size: 2.4rem;
+    padding: 1rem 0;
+    padding-top: 0.3rem;
+    padding-bottom: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.pokemon-genus{
+    font-size: 1rem;
+    margin-top: 0;
+    margin-bottom: 2rem;
+}
+
+.pokemon-sprite{
+    position: relative;
+    bottom: 1rem;
+    image-rendering: auto;
+    image-rendering: crisp-edges;
+    image-rendering: pixelated;
+    max-width: 100%;
+    width: 23rem;
+    height: auto;
+}
+
+.pokemon-sprite:hover{
+    cursor: url("ui/shiny_cursor.png"), auto;
+    transform: scale(1.02);
+    transition-duration: 300ms;
+}
+
+.pokemon-sprite:not(:hover){
+    transition-duration: 300ms;
+}
+
+.pokemon-type{
+    font-size: 1.2rem;
+    max-width: auto;
+    height: auto;
+    color: aliceblue;
+    padding: 0.2rem 1rem 0.2rem 1rem;
+    margin: 2rem 2rem 1rem 2rem;
+    border-radius: 7px;
+    border: solid rgb(255, 255, 255);
+    border-width: 2px;
+}
+
+.pokemon-description{
+    font-size: 1.2rem;
+    font-weight: 800;
+    color: black;
+    padding: 0 2rem 0 2rem;
+    margin-bottom: 0.2rem;
+}
+
+.pokemon-description-source{
+    font-size: 1rem;
+    color: rgba(0, 0, 0, 0.521);
+    margin-top: 0.2rem;
+}
+
+.steel{
+    background-color: rgb(90, 143, 163);
+}
+
+.fighting{
+    background-color: rgb(206, 63, 107);
+}
+
+.dragon{
+    background-color: rgb(3, 109, 196);
+}
+
+.water{
+    background-color: rgb(79, 145, 215);
+}
+
+.electric{
+    background-color: rgb(244, 211, 57);
+}
+
+.fairy{
+    background-color: rgb(236, 143, 230);
+}
+
+.fire{
+    background-color: rgb(255, 158, 84);
+}
+
+.ice{
+    background-color: rgb(116, 206, 192);
+}
+
+.bug{
+    background-color: rgb(146, 194, 43);
+}
+
+.normal{
+    background-color: rgb(146, 155, 163);
+}
+
+.grass{
+    background-color: rgb(99, 189, 90);
+}
+
+.poison{
+    background-color: rgb(171, 107, 201);
+}
+
+.psychic{
+    background-color: rgb(250, 114, 122);
+}
+
+.rock{
+    background-color: rgb(198, 184, 141);
+}
+
+.ground{
+    background-color: rgb(218, 121, 67);
+}
+
+.ghost{
+    background-color: rgb(81, 105, 175);
+}
+
+.dark{
+    background-color: rgb(90, 83, 101);
+}
+
+.flying{
+    background-color: rgb(144, 171, 223);
+}

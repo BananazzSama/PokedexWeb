@@ -1,0 +1,124 @@
+{
+    "lang": [
+                {
+                    "type": {
+                        "steel": "はがね",
+                        "fighting": "かくとう",
+                        "dragon": "ドラゴン",
+                        "water": "みず",
+                        "electric": "でんき",
+                        "fairy": "フェアリー",
+                        "fire": "ほのお",
+                        "ice": "こおり",
+                        "bug": "むし",
+                        "normal": "ノーマル",
+                        "grass": "くさ",
+                        "poison": "どく",
+                        "psychic": "エスパー",
+                        "rock": "いわ",
+                        "ground": "じめん",
+                        "ghost": "ゴースト",
+                        "dark": "あく",
+                        "flying": "ひこう"
+                    },
+                    "language": "ja-Hrkt"
+                },
+        
+                {
+                    "type": {
+                        "steel": "강철",
+                        "fighting": "격투",
+                        "dragon": "드래곤",
+                        "water": "물",
+                        "electric": "전기",
+                        "fairy": "페어리",
+                        "fire": "불꽃",
+                        "ice": "얼음",
+                        "bug": "벌레",
+                        "normal": "노말",
+                        "grass": "풀",
+                        "poison": "독",
+                        "psychic": "에스퍼",
+                        "rock": "바위",
+                        "ground": "땅",
+                        "ghost": "고스트",
+                        "dark": "악",
+                        "flying": "비행"
+                    },
+                    "language": "ko"
+                },
+        
+                {
+                    "type": {
+                        "steel": "はがね",
+                        "fighting": "かくとう",
+                        "dragon": "ドラゴン",
+                        "water": "みず",
+                        "electric": "でんき",
+                        "fairy": "フェアリー",
+                        "fire": "ほのお",
+                        "ice": "こおり",
+                        "bug": "むし",
+                        "normal": "ノーマル",
+                        "grass": "くさ",
+                        "poison": "どく",
+                        "psychic": "エスパー",
+                        "rock": "いわ",
+                        "ground": "じめん",
+                        "ghost": "ゴースト",
+                        "dark": "あく",
+                        "flying": "ひこう"
+                    },
+                    "language": "ja"
+                },
+        
+                {
+                    "type": {
+                        "steel": "Acier",
+                        "fighting": "Combat",
+                        "dragon": "Dragon",
+                        "water": "Eau",
+                        "electric": "Electrik",
+                        "fairy": "Fée",
+                        "fire": "Feu",
+                        "ice": "Glace",
+                        "bug": "Insecte",
+                        "normal": "Normal",
+                        "grass": "Plante",
+                        "poison": "Poison",
+                        "psychic": "Psy",
+                        "rock": "Roche",
+                        "ground": "Sol",
+                        "ghost": "Spectre",
+                        "dark": "Ténèbres",
+                        "flying": "Vol"
+                    },
+                    "language": "fr"
+                },
+        
+                {
+                    "type": {
+                        "steel": "Steel",
+                        "fighting": "Fighting",
+                        "dragon": "Dragon",
+                        "water": "Water",
+                        "electric": "Electric",
+                        "fairy": "Fairy",
+                        "fire": "Fire",
+                        "ice": "Ice",
+                        "bug": "Bug",
+                        "normal": "Normal",
+                        "grass": "Grass",
+                        "poison": "Poison",
+                        "psychic": "Psychic",
+                        "rock": "Rock",
+                        "ground": "Ground",
+                        "ghost": "Ghost",
+                        "dark": "Dark",
+                        "flying": "Flying"
+                    },
+                    "language": "en"
+                }
+    ]
+
+}

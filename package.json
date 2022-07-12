@@ -1,0 +1,10 @@
+{
+  "scripts": {
+    "build": "browserify app.js -o bundle.js"
+  },
+  "dependencies": {
+    "browserify": "^17.0.0",
+    "pokeapi-js-wrapper": "^1.2.2",
+    "requirejs": "^2.3.6"
+  }
+}

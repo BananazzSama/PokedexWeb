@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>Pokédex App</title>
+    <link rel="stylesheet" href="style.css">
+    <script defer src="bundle.js"></script>
+</head>
+<body>
+    <div id="input-container" class="input-container">
+        <i class="lni lni-search-alt input-id-search-icon"></i>
+        <input id="input-id" class="input-id" action="submit" maxlength="25" placeholder="Search for a Pokémon ID (ex. 387) or name (ex. Turtwig)"></input>
+    </div>
+    <div id="container" class="container">
+        <h1 id="home" class="home">Pokédex</h1>
+        <div id="poke-container" class="poke-container hidden">
+            <h1 id="poke-id" class="pokemon-id">ID</h1>
+            <h1 id="poke-name" class="pokemon-name visible">Name</h1>
+            <h1 id="poke-genus" class="pokemon-genus">Pokémon Genus</h1>
+            <img id="poke-sprite" class="pokemon-sprite" src="" alt="Pokemon Sprite">
+            <div id="type-container" class="type-container">
+                <h1 id="poke-type" class="pokemon-type">Type</h1>
+            </div>
+            <div id="description-container" class="description-container">
+                <p id="poke-description" class="pokemon-description">Pokemon Description</p>
+                <p id="poke-description-source" class="pokemon-description-source">Source</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
